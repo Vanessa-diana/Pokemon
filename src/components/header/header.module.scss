@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background: #daa520;
+  border-radius: 4px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  color: #333d4a;
+  font-weight: 600;
+
+  h1 {
+    margin: 3px 16px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  a {
+    margin: 3px 16px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
