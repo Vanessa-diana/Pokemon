@@ -1,3 +1,5 @@
+@import '../../styles/_conf.scss';
+
 .container {
   display: flex;
   flex-wrap: nowrap;
@@ -13,12 +15,12 @@
 }
 
 .card {
-  border: 2px solid #333d4a;
+  border: 2px solid $secondary-color;
   padding: 4px;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: $white-color;
   padding: 2rem;
-  box-shadow: 0 0 1em gold;
+  box-shadow: 0 0 1em $gold-color;
 
   @media screen and (max-width: 768px) {
     flex: 0 0 auto;
@@ -29,20 +31,20 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #696969;
+  color: $headline-color;
 
   span {
     text-align: center;
     padding: 10px 0;
     font-weight: bold;
-    color: #daa520;
+    color: $primary-color;
     font-size: 1.4rem;
   }
 
   p {
     padding: 5px 0;
     font-size: 1rem;
-    color: #333d4a;
+    color: $secondary-color;
   }
 }
 
@@ -51,8 +53,8 @@
   padding: 6px;
   margin: 10px 0;
   border: none;
-  background: #daa520;
+  background: $primary-color;
   border-radius: 4px;
-  color: #fff;
+  color: $white-color;
   font-weight: 600;
 }

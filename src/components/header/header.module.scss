@@ -1,6 +1,8 @@
+@import '../../styles/conf';
+
 .container {
   display: flex;
-  background: #daa520;
+  background: $primary-color;
   border-radius: 4px;
 }
 
@@ -9,21 +11,21 @@
   align-items: center;
   padding: 10px;
   width: 100%;
-  color: #333d4a;
+  color: $secondary-color;
   font-weight: 600;
 
   h1 {
     margin: 3px 16px;
     font-size: 30px;
     margin: 0 auto;
-    color: #fff;
+    color: $white-color;
   }
 
   a {
     margin: 3px 16px;
 
     &:hover {
-      color: #fff;
+      color: $white-color;
     }
   }
 }
