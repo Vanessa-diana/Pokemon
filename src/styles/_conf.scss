@@ -8,6 +8,8 @@ $grey-color: #808080;
 $headline-color: #696969;
 $border-color: #4c5b6c;
 
+/*--------------mixin-----------*/
+
 @mixin flexBox($width, $display) {
   width: $width;
   display: $display;
