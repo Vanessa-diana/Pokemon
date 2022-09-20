@@ -1,11 +1,11 @@
 @import '../../styles/_conf.scss';
 
 .container {
-  display: flex;
   padding: 4rem;
-  width: 100%;
   flex-wrap: wrap;
   flex-direction: column;
+
+  @include flexBox(100%, flex);
 
   @media screen and (min-width: 1200px) {
     flex-direction: row;

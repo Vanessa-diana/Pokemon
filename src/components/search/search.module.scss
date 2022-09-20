@@ -1,10 +1,10 @@
 @import '../../styles/conf';
 
 .container {
-  display: flex;
-  width: 100%;
   justify-content: center;
   color: $white-color;
+
+  @include flexBox(100%, flex);
 
   section {
     display: flex;
