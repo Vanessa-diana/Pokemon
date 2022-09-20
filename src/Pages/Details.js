@@ -20,7 +20,7 @@ const Details = () => {
     getDetailsCard();
   }, [id]);
 
-  return <CardItem details={details.data} />;
+  return <CardItem details={details} />;
 };
 
 export default Details;
