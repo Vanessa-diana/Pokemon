@@ -22,7 +22,7 @@
   padding: 2rem;
   box-shadow: 0 0 1em $gold-color;
 
-  @media screen and (max-width: 768px) {
+  @include md {
     flex: 0 0 auto;
   }
 }
@@ -32,6 +32,10 @@
   align-items: center;
   flex-direction: column;
   color: $headline-color;
+
+  img {
+    max-width: 210px;
+  }
 
   span {
     text-align: center;
@@ -57,4 +61,7 @@
   border-radius: 4px;
   color: $white-color;
   font-weight: 600;
+}
+.notFound {
+  color: $white-color;
 }

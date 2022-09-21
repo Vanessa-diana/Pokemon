@@ -19,7 +19,7 @@ export const Home = () => {
         .finally(() => setLoading(false));
     };
     getCards();
-  }, []);
+  }, [!search]);
 
   const getSearchCards = async () => {
     setLoading(true);
@@ -37,7 +37,7 @@ export const Home = () => {
         loading={loading}
         getSearch={getSearchCards}
       />
-      <Cards cards={cards} loading={loading} />
+      <Cards cards={cards.data} loading={loading} />
     </div>
   );
 };
