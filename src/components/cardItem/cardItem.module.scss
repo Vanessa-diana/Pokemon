@@ -1,7 +1,7 @@
 @import '../../styles/global.scss';
 
 .container {
-  padding: 4rem;
+  padding: 1rem;
   flex-wrap: wrap;
   flex-direction: column;
 
@@ -10,6 +10,7 @@
   @include xl {
     flex-direction: row;
     justify-content: space-between;
+    padding: 4rem;
   }
 
   p {
@@ -47,7 +48,7 @@
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
+  padding: 1rem;
   flex-direction: column;
   width: 100%;
   border: 1px solid $grey-color;
@@ -55,6 +56,7 @@
 
   @include xl {
     width: 70%;
+    padding: 4rem;
   }
 
   img {
